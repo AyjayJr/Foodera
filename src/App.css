@@ -2,6 +2,7 @@
 
 :root {
   --accent-color: #a82d49;
+  --font-color: #43121d;
 }
 
 .container {
@@ -11,6 +12,12 @@
 }
 
 /* Header Styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 
 nav {
   display: flex;
@@ -36,4 +43,22 @@ button {
   font-weight: bolder;
   border: none;
   text-align: center;
+}
+
+/* Showcase Styles */
+
+.showcase {
+  padding: 275px 0 150px;
+  background: no-repeat center;
+  background-size: cover;
+}
+
+.showcase-content {
+  width: 50%;
+  font-size: 1.3em;
+  color: var(--font-color);
+}
+
+.showcase-content > button {
+  margin: 1em;
 }
