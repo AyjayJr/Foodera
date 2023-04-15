@@ -47,7 +47,7 @@ nav > ul {
 
 /* Showcase Styles */
 
-.showcase {
+.showcase-bg {
   padding: 275px 0 150px;
   background: no-repeat center;
   background-size: cover;
@@ -118,4 +118,28 @@ nav > ul {
   max-width: 650px;
   margin: 0px 20px;
   border-radius: 1em;
+}
+
+/* Banner Section Styles */
+
+.banner-bg {
+  margin: 50px 0;
+  padding: 100px 0;
+  background: no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: var(--font-color);
+}
+
+.banner-content {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+.banner-bg h2 {
+  font-size: xx-large;
+}
+
+.banner-bg p {
+  line-height: 1.7em;
 }
