@@ -11,6 +11,15 @@
   max-width: 1200px;
 }
 
+button {
+  background-color: var(--accent-color);
+  padding: 0.7em 1em;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  text-align: center;
+}
+
 /* Header Styles */
 header {
   position: fixed;
@@ -26,7 +35,7 @@ nav {
   background-color: transparent;
 }
 
-ul {
+nav > ul {
   list-style: none;
   display: flex;
   width: 60%;
@@ -34,15 +43,6 @@ ul {
   justify-content: space-between;
   color: var(--accent-color);
   font-weight: bold;
-}
-
-button {
-  background-color: var(--accent-color);
-  padding: 0.7em 1em;
-  color: white;
-  font-weight: bolder;
-  border: none;
-  text-align: center;
 }
 
 /* Showcase Styles */
@@ -54,11 +54,39 @@ button {
 }
 
 .showcase-content {
-  width: 50%;
+  width: 40%;
   font-size: 1.3em;
   color: var(--font-color);
 }
 
 .showcase-content > button {
   margin: 1em;
+  box-shadow: 0px 2px 10px gray;
+}
+
+/* Stats Bar Styles */
+
+.stats-bg {
+  color: white;
+  background-color: var(--accent-color);
+  width: 100%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.stats h2 {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: xx-large;
+}
+
+.stats p {
+  margin-top: 2px;
+  margin-bottom: 50px;
 }
