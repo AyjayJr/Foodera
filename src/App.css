@@ -123,7 +123,7 @@ nav > ul {
 /* Banner Section Styles */
 
 .banner-bg {
-  margin: 50px 0;
+  margin: 50px 0 0;
   padding: 100px 0;
   background: no-repeat center;
   background-size: cover;
@@ -142,4 +142,20 @@ nav > ul {
 
 .banner-bg p {
   line-height: 1.7em;
+}
+
+/* Meals Section Styles */
+
+.meals {
+  text-align: center;
+  line-height: 1.7em;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.meals h2 {
+  font-size: xx-large;
+  color: var(--font-color);
 }

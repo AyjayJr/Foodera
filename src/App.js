@@ -4,6 +4,7 @@ import Showcase from './components/Showcase';
 import Stats from './components/Stats';
 import About from './components/About';
 import Banner from './components/Banner';
+import Meals from './components/Meals';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Stats />
       <About />
       <Banner />
+      <Meals />
     </div>
   );
 }
