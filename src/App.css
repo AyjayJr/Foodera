@@ -160,10 +160,6 @@ nav > ul {
   color: var(--font-color);
 }
 
-.meals-section p {
-  margin-bottom: 30px;
-}
-
 .meals-items {
   display: flex;
   justify-content: center;
@@ -172,11 +168,16 @@ nav > ul {
 
 .meals-items img {
   width: 50vw;
-  max-width: 400px;
-  border-radius: 5px;
+  max-width: 370px;
+  border-radius: 10px;
 }
 
 .meals {
   display: flex;
   flex-direction: column;
+  align-items: baseline;
+}
+
+.meals p {
+  margin: 0;
 }

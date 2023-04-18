@@ -15,14 +15,22 @@ export default function Meals() {
                     <img src={meal1} alt='meal1'/>
                     <p>Rainbow Vegetable Sandwich</p>
                     <p>Time: 15 - 20 Minutes | Serves: 1</p>
-                    <p>$10.50 $11.70</p>
+                    <h3>$10.50 $11.70</h3>
                     <button>Order Now</button>
                 </div>
                 <div className='meals'>
                     <img src={meal2} alt='meal2'/>
+                    <p>Vegetarian Burger</p>
+                    <p>Time: 30 - 45 Minutes | Serves: 1</p>
+                    <h3>$9.20 $10.50</h3>
+                    <button>Order Now</button>
                 </div>
                 <div className='meals'>
                     <img src={meal3} alt='meal3'/>
+                    <p>Raspberry Stuffed French Toast</p>
+                    <p>Time: 10 - 15 Minutes | Serves: 1</p>
+                    <h3>$12.50 $13.20</h3>
+                    <button>Order Now</button>
                 </div>
             </div>
         </div>
