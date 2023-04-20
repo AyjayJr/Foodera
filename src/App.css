@@ -240,6 +240,22 @@ nav > ul {
     right: 24px;
 }
 
+
+/* FAQ section styles */
+
+.faq {
+  text-align: center;
+}
+
+.faq > h2 {
+  font-size: xx-large;
+  color: var(--font-color);
+}
+
+.faq-grid {
+  display: grid;
+}
+
 /* Footer Section Styles */
 
 a {

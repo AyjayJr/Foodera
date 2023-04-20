@@ -7,6 +7,7 @@ import Banner from './components/Banner';
 import Meals from './components/Meals';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
+import Faq from './components/Faq';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
         <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
       </Carousel>
+      <Faq />
       <Footer />
     </div>
   );
