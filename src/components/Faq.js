@@ -5,10 +5,10 @@ export default function Faq() {
 				<h2>Frequently Asked Questions</h2>
 			</div>
 			<div className='faq-grid'>
-				<div className='grid-1'>1</div>
-				<div className='grid-2'>2</div>
-				<div className='grid-3'>3</div>
-				<div className='grid-4'>4</div>
+				<div>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</div>
+				<div>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</div>
+				<div>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</div>
+				<div>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</div>
 			</div>
 		</div>
 	);
