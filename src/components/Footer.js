@@ -9,9 +9,16 @@ export default function Footer() {
 						<a href='#'>Affiliate</a>
 						<a href='#'>FAQ</a>
 					</div>
+					{/* TODO: Add social network icons */}
 					<div className='socials'>
-
+						<a href='#'></a>
+						<a href='#'></a>
+						<a href='#'></a>
+						<a href='#'></a>
+						<a href='#'></a>
+						<a href='#'></a>
 					</div>
+					<p>&#169; 2023. All rights reserved.</p>
 				</div>
 			</div>
 		</div>
