@@ -239,3 +239,10 @@ nav > ul {
 .right-arrow {
     right: 24px;
 }
+
+/* Footer Section Styles */
+
+.footer-bg {
+  background-color: var(--accent-color);
+  height: 250px;
+}
