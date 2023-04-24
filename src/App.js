@@ -8,6 +8,7 @@ import Meals from './components/Meals';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
 import Faq from './components/Faq';
+import Parallax from './components/Parallax';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
       </Carousel>
       <Faq />
+      <Parallax />
       <Footer />
     </div>
   );

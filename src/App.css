@@ -269,6 +269,27 @@ nav > ul {
   padding: 0;
 }
 
+/* Parallax Section Styles */
+
+.parallax-bg {
+  height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-content {
+  min-height: 100%;
+  overflow: auto;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+}
+
 /* Footer Section Styles */
 
 a {
