@@ -18,6 +18,7 @@ button {
   font-weight: bolder;
   border: none;
   text-align: center;
+  cursor: pointer;
 }
 
 /* Header Styles */
