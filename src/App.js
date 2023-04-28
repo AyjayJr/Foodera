@@ -9,6 +9,7 @@ import Carousel from './components/Carousel';
 import Footer from './components/Footer';
 import Faq from './components/Faq';
 import Parallax from './components/Parallax';
+import Newsletter from './components/Newsletter';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       </Carousel>
       <Faq />
       <Parallax />
+      <Newsletter />
       <Footer />
     </div>
   );
