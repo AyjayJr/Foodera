@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Faq from './components/Faq';
 import Parallax from './components/Parallax';
 import Newsletter from './components/Newsletter';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -20,11 +21,7 @@ function App() {
       <About />
       <Banner />
       <Meals />
-      <Carousel>
-        <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
-        <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
-        <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
-      </Carousel>
+      <Testimonials />
       <Faq />
       <Parallax />
       <Newsletter />

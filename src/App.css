@@ -237,6 +237,16 @@ nav > ul {
     scrollbar-width: none;  /* hide scrollbar in Firefox */
 }
 
+.testimonial-bg {
+  background-color: var(--accent-color);
+  text-align: center;
+}
+
+.testimonial-bg h2 {
+  color: white;
+  font-size: xx-large;
+}
+
 /* hide scrollbar in webkit browser */
 .carousel-content::-webkit-scrollbar, .carousel-content::-webkit-scrollbar {
     display: none;
