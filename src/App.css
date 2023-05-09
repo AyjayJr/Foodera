@@ -379,3 +379,16 @@ a {
   display: flex;
   justify-content: space-evenly;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 980px) {
+  li {
+    font-size: 0.7em; 
+  }
+  
+  li > button {
+    transform: scale(0.7);
+  }
+  
+}
