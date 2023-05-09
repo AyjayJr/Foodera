@@ -390,5 +390,10 @@ a {
   li > button {
     transform: scale(0.7);
   }
-  
+}
+
+@media screen and (max-width: 800px) {
+  li { 
+    display: none;
+  }
 }
