@@ -49,6 +49,11 @@ nav > ul {
   font-weight: bold;
 }
 
+.menu {
+  width: 1.7em;
+  display: none;
+}
+
 /* Showcase Styles */
 
 .showcase-bg {
@@ -395,5 +400,17 @@ a {
 @media screen and (max-width: 800px) {
   li { 
     display: none;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .logo {
+    transform: scale(0.5);
+  }
+
+  .menu {
+    display: block;
   }
 }
