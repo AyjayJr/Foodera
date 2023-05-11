@@ -23,7 +23,7 @@ export default function Header() {
 						<li>FAQ</li>
 						<li><button>1-800-123-456</button></li>
 					</ul>
-					<img className='menu' src={menu} alt='menu icon' />
+					<img onClick={menuHandler} className='menu' src={menu} alt='menu icon' />
 				</nav>
 			</div>
 		</header>
