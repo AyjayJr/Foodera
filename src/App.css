@@ -413,4 +413,16 @@ a {
   .menu {
     display: block;
   }
+
+  .stats {
+    flex-direction: column;
+  }
+
+  .about-item {
+    flex-direction: column;
+  }
+
+  .about-item > img {
+    width: 90vw;
+  }
 }

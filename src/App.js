@@ -5,7 +5,6 @@ import Stats from './components/Stats';
 import About from './components/About';
 import Banner from './components/Banner';
 import Meals from './components/Meals';
-import Carousel from './components/Carousel';
 import Footer from './components/Footer';
 import Faq from './components/Faq';
 import Parallax from './components/Parallax';
