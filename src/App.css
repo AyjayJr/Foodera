@@ -388,6 +388,10 @@ a {
 /* Media Queries */
 
 @media screen and (max-width: 1230px) {
+  .showcase-content {
+    width: 80%;
+  }
+
   .meals-items img {
     width: 270px;
   }
@@ -416,6 +420,9 @@ a {
     width: 60vw;
   }
 
+  .pages {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 800px) {
