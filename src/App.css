@@ -17,6 +17,7 @@ button {
   color: white;
   font-weight: bolder;
   border: none;
+  border-radius: 4px;
   text-align: center;
   cursor: pointer;
 }
@@ -374,6 +375,16 @@ nav > ul {
   font-size: x-large;
   text-align: center;
   color: var(--font-color);
+}
+
+.newsletter input {
+  font-size: 16px;
+  font-family: inherit;
+  width: 250px;
+  padding: 0.5em 1em;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  margin-right: 1em;
 }
 
 /* Footer Section Styles */
