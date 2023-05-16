@@ -18,7 +18,7 @@ export default function Footer() {
 						<a href='#'></a>
 						<a href='#'></a>
 					</div>
-					<p>&#169; 2023. All rights reserved.</p>
+					<p>design by <a href='https://themeforest.net/item/foodera-responsive-food-landing-page-template/24565320'>thememor</a></p>
 				</div>
 			</div>
 		</div>

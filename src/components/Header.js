@@ -16,11 +16,11 @@ export default function Header() {
 				<nav>
 					<img className='logo' src={logo} alt='logo' />
 					<ul>
-						<li>Home</li>
-						<li>About Us</li>
-						<li>Explore Foods</li>
-						<li>Reviews</li>
-						<li>FAQ</li>
+						<li><a href='#'>Home</a></li>
+						<li><a href='#'>About Us</a></li>
+						<li><a href='#'>Explore Foods</a></li>
+						<li><a href='#'>Reviews</a></li>
+						<li><a href='#'>FAQ</a></li>
 						<li><button>1-800-123-456</button></li>
 					</ul>
 					<img onClick={menuHandler} className='menu' src={menu} alt='menu icon' />
