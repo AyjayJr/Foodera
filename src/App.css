@@ -294,29 +294,29 @@ nav > ul {
 }
 
 .carousel-content > * {
-    width: 100%;
-    flex-shrink: 0;
-    flex-grow: 1;
+  width: 100%;
+  flex-shrink: 0;
+  flex-grow: 1;
 }
 
 .left-arrow, .right-arrow {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 48px;
-    height: 48px;
-    border-radius: 24px;
-    background-color: white;
-    border: 1px solid #ddd;
+  position: absolute;
+  color: var(--accent-color);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: white;
+  border: 1px solid #ddd;
 }
 
 .left-arrow {
-    left: 24px;
+  left: 24px;
 }
 
 .right-arrow {
-    right: 24px;
+  right: 24px;
 }
 
 
@@ -362,6 +362,7 @@ nav > ul {
   min-height: 100%;
   overflow: auto;
   display: flex;
+  text-align: center;
   justify-content: center;
   gap: 20vw;
   align-items: center;
@@ -499,5 +500,9 @@ a {
   .faq-grid {
     display: flex;
     flex-direction: column;
+  }
+
+  .quote {
+    font-size: medium;
   }
 }

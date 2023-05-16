@@ -10,17 +10,17 @@ export default function Testimonials() {
 				<Carousel>
 					<div className='testimonial'>
 						<img className='pfp' src={pfp1} alt='Author'/>
-						<p className='quote'>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live"</p>
+						<p className='quote'>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."</p>
 						<p className='author'>John Doe - Web Designer</p>
 					</div>
 					<div className='testimonial'>
 						<img className='pfp' src={pfp2} alt='Author'/>
-						<p className='quote'>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live"</p>
+						<p className='quote'>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."</p>
 						<p className='author'>John Doe - Web Designer</p>
 					</div>
 					<div className='testimonial'>
 						<img className='pfp' src={pfp3} alt='Author'/>
-						<p className='quote'>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live"</p>
+						<p className='quote'>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."</p>
 						<p className='author'>John Doe - Web Designer</p>
 					</div>
 				</Carousel>
