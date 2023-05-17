@@ -27,6 +27,10 @@ button:hover {
   color: var(--accent-color);
 }
 
+ul {
+  list-style: none;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -40,6 +44,38 @@ a:hover {
   left: 0;
   background-color: rgba(0,0,0,0.75);
   z-index: 50;
+}
+
+.modal-menu {
+  /* height: 40%; */
+  /* margin: 100px auto; */
+  position: fixed;
+  right: 1%;
+  top: 100px;
+  width: 60%;
+  background-color: white;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.modal-menu ul {
+  margin: 0;
+  padding: 1em;
+}
+
+.modal-menu ul > li {
+  margin: 1em;
+}
+
+.modal-menu a {
+  color: var(--accent-color);
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.modal-menu li:hover {
+  background-color: rgba(0,0,0,0.25);
 }
 
 /* Header Styles */
@@ -61,7 +97,6 @@ nav {
 }
 
 nav > ul {
-  list-style: none;
   display: flex;
   width: 60%;
   align-items: center;
@@ -486,7 +521,7 @@ a {
 }
 
 @media screen and (max-width: 800px) {
-  li { 
+  nav li { 
     display: none;
   }
 
