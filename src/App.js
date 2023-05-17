@@ -18,6 +18,7 @@ function App() {
 
   const menuHandler = () => {
     setIsMenuOpen(prevState => { return !prevState; });
+    console.log(isMenuOpen);
   }
 
   return (

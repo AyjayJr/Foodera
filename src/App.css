@@ -27,10 +27,19 @@ button:hover {
   color: var(--accent-color);
 }
 
-
-
 a:hover {
   text-decoration: underline;
+}
+
+/* Modal Menu Styles */
+.modal-bg {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.75);
+  z-index: 50;
 }
 
 /* Header Styles */
