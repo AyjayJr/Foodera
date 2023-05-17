@@ -1,15 +1,8 @@
-import { useState } from "react";
 import logo from '../assets/logo.png';
 import menu from '../assets/bar.png';
 
 // TODO: media query for smaller viewport / sticky / transparent > white
-export default function Header() {
-	const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-	const menuHandler = () => {
-		setIsMenuOpen((prevState) => { return !prevState })
-	}
-
+export default function Header(props) {
 	return (
 		<header>
 			<div className='container'>
@@ -23,7 +16,12 @@ export default function Header() {
 						<li><a href='#'>FAQ</a></li>
 						<li><button>1-800-123-456</button></li>
 					</ul>
-					<img onClick={menuHandler} className='menu' src={menu} alt='menu icon' />
+					<img
+						onClick={props.onClick}
+						className='menu'
+						src={menu}
+						alt='menu icon'
+					/>
 				</nav>
 			</div>
 		</header>
