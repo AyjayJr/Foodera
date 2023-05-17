@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div>
-      {isMenuOpen && <ModalMenu />}
+      {isMenuOpen && <ModalMenu onClick={menuHandler} />}
       <Header onClick={menuHandler} />
       <Showcase />
       <Stats />
