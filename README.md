@@ -9,7 +9,7 @@
 
 <p>A website showcasing <b>Foodera</b> a deli/bakery that provides good alternatives to fast food. The website incorporates a responsive user-friendly design that can be viewed comfortably on all screen sizes.</p>
 
-▶ Live Demo: <a href="https://foodera-landing-page.vercel.app/)https://foodera-landing-page.vercel.app/">Foodera</a>
+▶ Live Demo: <a href="https://foodera-landing-page.vercel.app/">Foodera</a>
 
 <h3>Built with:</h3>
 ⚛ React JS
