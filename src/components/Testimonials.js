@@ -5,7 +5,7 @@ import pfp3 from "../assets/pfp3.jpg";
 
 export default function Testimonials() {
 	return (
-		<div className='testimonial-bg'>
+		<div id='reviews' className='testimonial-bg'>
 			<h2>Testimonials</h2>
 				<Carousel>
 					<div className='testimonial'>

@@ -3,6 +3,7 @@ import image from '../assets/showcase.jpg'
 export default function Showcase() {
 	return(
 		<div
+      id='hero'
 			className='showcase-bg'
 			style={{ backgroundImage:`url(${image})`}}
 		>

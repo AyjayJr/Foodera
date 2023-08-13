@@ -1,6 +1,6 @@
 export default function Faq() {
 	return (
-		<div className='container'>
+		<div id='faq' className='container'>
 			<div className='faq'>
 				<h2>Frequently Asked Questions</h2>
 			</div>

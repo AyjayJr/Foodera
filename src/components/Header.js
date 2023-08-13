@@ -9,11 +9,11 @@ export default function Header(props) {
 				<nav>
 					<img className='logo' src={logo} alt='logo' />
 					<ul>
-						<li><a href='#'>Home</a></li>
-						<li><a href='#'>About Us</a></li>
-						<li><a href='#'>Explore Foods</a></li>
-						<li><a href='#'>Reviews</a></li>
-						<li><a href='#'>FAQ</a></li>
+						<li><a href='#hero'>Home</a></li>
+						<li><a href='#about'>About Us</a></li>
+						<li><a href='#meals'>Explore Foods</a></li>
+						<li><a href='#reviews'>Reviews</a></li>
+						<li><a href='#faq'>FAQ</a></li>
 						<li><button>1-800-123-456</button></li>
 					</ul>
 					<img

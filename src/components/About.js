@@ -3,7 +3,7 @@ import collage from '../assets/2.png';
 
 export default function About() {
 	return (
-		<div className='container'>
+		<div id='about' className='container'>
 			<div className='about'>
 				<div className='about-item'>
 					<img src={food} />

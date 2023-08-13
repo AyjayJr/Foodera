@@ -5,6 +5,10 @@
   --font-color: #43121d;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   margin: 0 auto;
   width: 80%;
@@ -20,6 +24,7 @@ button {
   border: 1px solid var(--accent-color);
   text-align: center;
   cursor: pointer;
+  transition: color 300ms, background 300ms;
 }
 
 button:hover {
